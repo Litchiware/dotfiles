@@ -12,7 +12,7 @@ Plugin 'tpope/vim-abolish'
 Plugin 'Raimondi/delimitMate'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
-Plugin 'wincent/command-t'
+Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-repeat'
 
 Plugin 'SirVer/ultisnips' " Track the engine.
@@ -23,7 +23,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical" " If you want :UltiSnipsEdit to split your window.
 
 Plugin 'tpope/vim-surround'
-Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'Valloric/YouCompleteMe'
 
@@ -41,6 +40,7 @@ set softtabstop=4
 colorscheme desert
 syntax on
 set ruler
+set laststatus=2
 """""""""""""""""""""""""""""""""
 "settings related to vim's property
 """""""""""""""""""""""""""""""""
