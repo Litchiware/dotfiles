@@ -35,7 +35,6 @@ filetype plugin on
   """"""""""""""""""""""""""""""""""""""""
 
 let g:vim_markdown_folding_disabled=1
-au BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn}   set filetype=markdown
 
 
   """"""""""""""""""""""""""""""""""""""""
