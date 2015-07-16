@@ -23,6 +23,7 @@ Plugin 'honza/vim-snippets' " Snippets are separated from the engine.
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'tomtom/tcomment_vim'
 
 call vundle#end()
 filetype plugin indent on
