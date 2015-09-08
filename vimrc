@@ -24,6 +24,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'tomtom/tcomment_vim'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-bundler'
 
 call vundle#end()
 filetype plugin indent on
