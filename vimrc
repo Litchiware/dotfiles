@@ -70,11 +70,14 @@ colorscheme desert
 syntax on
 set nu
 set laststatus=2
-set tabstop=8
 set expandtab
-set shiftwidth=4
-set softtabstop=4
 set ruler
+set tabstop=2
+set shiftwidth=2
+
+autocmd filetype python set tabstop=8
+autocmd filetype python set shiftwidth=4
+autocmd filetype python set softtabstop=4
 
 
   """"""""""""""""""""""""""""""""""""""""
