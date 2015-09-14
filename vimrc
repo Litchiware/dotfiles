@@ -109,6 +109,8 @@ noremap \ ,
 cnoremap <silent> <C-p> <Up>
 cnoremap <silent> <C-n> <Down>
 cnoremap <expr> %% getcmdtype()==':'? expand('%:h').'/' : '%%'
+nnoremap <tab> :bn<CR>
+nnoremap <s-tab> :bp<CR>
 nnoremap <silent> <Leader>n :noh<CR>
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
