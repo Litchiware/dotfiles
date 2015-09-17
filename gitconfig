@@ -1,0 +1,8 @@
+[user]
+	name = 李亮民
+	email = llm@huantengsmart.com
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+[alias]
+	ci = commit -a -v

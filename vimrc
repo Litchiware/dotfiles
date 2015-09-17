@@ -109,6 +109,7 @@ set backspace=2
 set ignorecase
 set smartcase
 set scrolloff=3
+set tags+=gems.tags
 
 
   """"""""""""""""""""""""""""""""""""""""
