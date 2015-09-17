@@ -1,16 +1,18 @@
-#我的vimrc文件
+#我的dotfiles
+
+##vimrc
 
 文件包含以下几个部分的配置语句
 
-##manage vim plugins with vundle
+###manage vim plugins with vundle
 
 这部分主要包括了vim插件相关的语句，我是使用vundle来进行vim插件的安装和管理的
 
-##settings for specific plugins
+###settings for specific plugins
 
 这一部分主要是针对某些特定插件的配置
 
-###vim-snippets
+####vim-snippets
 
 由于我使用`vim-snippets`的同时也安装了`vim-markdown`插件，而`vim-markdown`插件中的`ftdetect/mkd.vim`文件中将markdown文件的filetype设置为了`mkd`，因此`vim-snippets`插件中定义的markdown的snippet无法正常使用，有两种解决方案
 
@@ -33,18 +35,18 @@
 
         ${0}
 
-##settings for appearance
+###settings for appearance
 
 这一部分主要是与vim的外观显示相关的配置
 
-##settings for property
+###settings for property
 
 这一部分主要是vim的许多内置属性的配置
 
-##settings for key mappings
+###settings for key mappings
 
 这一部分主要是一些常用的按键映射
 
-##settings for built-in plugins
+###settings for built-in plugins
 
 这一部分主要是与vim中内置的插件相关的配置
