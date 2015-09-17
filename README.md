@@ -16,6 +16,7 @@
 
 - 重新将markdown文件的filetype设置为markdown，即在vimrc中增加一句`au BufRead,BufNewFile *.{md,mdown,mkd,mkdn,markdown,mdwn}   set filetype=markdown`
 - 将vim-snippets插件的`markdown.snippets`文件重新命名为`mkd.snippets`
+- 最新版的vim-snippets插件貌似不用重命名`markdown.snippets`文件了，因为新版的`vim-markdown`插件中的`ftdetect/mkd.vim`文件中将markdown文件的filetype设置为了`mkd.markdown`
 
 第一种方法会导致vim-markdown的很多功能无法正常使用，比如增强的markdown语法高亮，第二种方法可移植性不好，在另一个平台上安装了这两种插件后，需要进行`markdown.snippets`文件的重命名工作，为了使用vim-markdown插件的功能，本人采用了第二种解决方式
 

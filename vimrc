@@ -26,6 +26,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-bundler'
+Plugin 'suan/vim-instant-markdown'
 
 call vundle#end()
 filetype plugin indent on
@@ -64,6 +65,14 @@ let g:ycm_key_invoke_completion = '<c-y>'
 
 
   """"""""""""""""""""""""""""""""""""""""
+"    settings for vim-instant-markdown     "
+"                                          "
+  """"""""""""""""""""""""""""""""""""""""
+
+let g:instant_markdown_autostart = 0
+
+
+  """"""""""""""""""""""""""""""""""""""""
 "         settings for appearance           "
 "                                          "
   """"""""""""""""""""""""""""""""""""""""
@@ -80,6 +89,9 @@ set shiftwidth=2
 autocmd filetype python set tabstop=8
 autocmd filetype python set shiftwidth=4
 autocmd filetype python set softtabstop=4
+autocmd filetype mkd.markdown set tabstop=8
+autocmd filetype mkd.markdown set shiftwidth=4
+autocmd filetype mkd.markdown set softtabstop=4
 
 
   """"""""""""""""""""""""""""""""""""""""
