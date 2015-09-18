@@ -85,6 +85,7 @@ set expandtab
 set ruler
 set tabstop=2
 set shiftwidth=2
+set foldmethod=indent
 
 autocmd filetype python set tabstop=8
 autocmd filetype python set shiftwidth=4
