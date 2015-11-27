@@ -27,6 +27,7 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-bundler'
 Plugin 'suan/vim-instant-markdown'
+Plugin 'mileszs/ack.vim'
 
 call vundle#end()
 filetype plugin indent on
