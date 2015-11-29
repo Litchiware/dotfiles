@@ -50,3 +50,14 @@
 ###settings for built-in plugins
 
 这一部分主要是与vim中内置的插件相关的配置
+
+## Xresources
+
+文件中包含了urxvt的配置语句，主要包含以下部分
+
+* 滚动条设置
+* 光标闪烁设置
+* 字体及字体颜色
+* 皮肤设置
+
+>皮肤设置参考(Making urxvt beautiful)[http://bastian.rieck.ru/blog/posts/2013/making_urxvt_beautiful/)
