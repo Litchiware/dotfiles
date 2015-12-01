@@ -15,6 +15,7 @@ URxvt*foreground: white
 ! URxvt.font: xft:Bitstream Vera Sans Mono:size=11:atialias=true:hinting=true,xft:文泉驿等宽微米黑:size=11
 URxvt.font: xft:Bitstream Vera Sans Mono:bold:size=11:atialias=true:hinting=true, xft:文泉驿等宽微米黑:style=BOld:size=11
 URxvt.boldfont: xft:Bitstream Vera Sans Mono:bold:size=11:atialias=true:hinting=true, xft:文泉驿等宽微米黑:style=BOld:size=11
+URxvt.letterSpace: -4
 
 ! Color Scheme
 urxvt*foreground: white
