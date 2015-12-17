@@ -28,6 +28,7 @@ Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-bundler'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'mileszs/ack.vim'
+Plugin 'lervag/vimtex'
 
 call vundle#end()
 filetype plugin indent on
@@ -72,6 +73,19 @@ let g:ycm_key_invoke_completion = '<c-y>'
 
 let g:instant_markdown_autostart = 0
 
+
+  """"""""""""""""""""""""""""""""""""""""
+"          settings for vimtex             "
+"                                          "
+  """"""""""""""""""""""""""""""""""""""""
+
+if !exists('g:ycm_semantic_triggers')
+  let g:ycm_semantic_triggers = {}
+endif
+let g:ycm_semantic_triggers.tex = [
+      \ 're!\\[A-Za-z]*(ref|cite)[A-Za-z]*([^]]*])?{([^}]*, ?)*'
+      \ ]
+let g:vimtex_view_method = 'mupdf'
 
   """"""""""""""""""""""""""""""""""""""""
 "         settings for appearance           "
