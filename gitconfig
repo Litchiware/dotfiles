@@ -6,3 +6,5 @@
 	excludesfile = ~/.gitignore
 [alias]
 	ci = commit -a -v
+[color]
+	ui = true
