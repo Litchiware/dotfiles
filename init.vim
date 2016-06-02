@@ -1,6 +1,9 @@
 set nu
 set ignorecase
 set smartcase
+set expandtab
+set tabstop=2
+set shiftwidth=2
 let mapleader=','
 nnoremap <silent> <Leader>n :noh<CR>
 noremap \ ,
