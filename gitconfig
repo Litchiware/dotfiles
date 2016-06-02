@@ -1,8 +1,8 @@
 [user]
-	name = 李亮民
-	email = llm@huantengsmart.com
+	name = liliangmin
+	email = 1508490934@qq.com
 [core]
-	editor = vim
+	editor = nvim
 	excludesfile = ~/.gitignore
 [alias]
 	ci = commit -a -v
