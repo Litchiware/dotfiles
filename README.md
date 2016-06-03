@@ -9,6 +9,7 @@
 - [install git and bash-completion](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion#homebrew)
 - **install tmux:** `brew install tmux`
 - **install and set powerline fonts:** clone [powerline/fonts](https://github.com/powerline/fonts) repository to arbitrary location, double-click the font file in Finder, then click `Install this font` in the preview window. I eventually installed the `Sauce Code Powerline Medium` font after several contrasts. Open iterm2 `preference --> profiles --> Text`, set `No-ASCII Font` to the powerline font just installed
+- [install oceanic-next-iterm](https://github.com/mhartington/oceanic-next-iterm)
 
 ## configrations
 
