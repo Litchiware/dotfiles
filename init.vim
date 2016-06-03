@@ -48,3 +48,4 @@ let g:airline_powerline_fonts = 1
 set background=dark
 colorscheme OceanicNext
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+let g:airline_theme='oceanicnext'
