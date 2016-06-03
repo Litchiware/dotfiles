@@ -35,6 +35,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'bling/vim-bufferline'
 Plug 'mhinz/vim-signify'
+Plug 'edkolev/tmuxline.vim'
 
 Plug 'altercation/vim-colors-solarized'
 Plug 'freeo/vim-kalisi'
