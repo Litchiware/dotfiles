@@ -10,3 +10,4 @@ if [ -f ~/.bashrc ]; then
   . ~/.bashrc
 fi
 alias vim='nvim'
+function ssht () { /usr/bin/ssh -t $@ "tmux attach || tmux new"; }
