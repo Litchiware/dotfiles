@@ -16,6 +16,7 @@
 - create symbolic link `/Users/<user>/.config/nvim/init.vim --> /Users/<user>/dotfiles/init.vim`
 - create symbolic link `/Users/<user>/.bash_profile --> /Users/<user>/dotfiles/bash_profile`
 - create symbolic link `/Users/<user>/.tmux.conf --> /Users/<user>/dotfiles/tmux.conf`
+- create symbolic link `/Users/<user>/.gitconfig --> /Users/<user>dotfiles/gitconfig`
 - open `nvim` and run `:PlugInstall`
 - open `nvim` and run `:TmuxlineSnapshot ~/.tmuxline.conf` to generate tmuxline snapshot file which is sourced by tmux.conf on startup
 
