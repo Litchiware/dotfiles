@@ -17,5 +17,5 @@
 
 ## Note
 
-- working environment specific configrations should be placed into `~/.bashrc`, configrations to be under version control can be placed into `~/.bash_profile`
+- working environment specific configrations should be placed into `~/.profile_extension`, configrations to be under version control can be placed into `~/.bash_profile`
 - It's better to use absolute path to avoid `Too many levels of symbolic links` error when create symbolic links
