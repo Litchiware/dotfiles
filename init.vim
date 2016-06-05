@@ -28,8 +28,12 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 
 Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
+Plug 'zchee/deoplete-jedi'
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
+
+Plug 'neomake/neomake'
+Plug 'kassio/neoterm'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -50,3 +54,14 @@ set background=dark
 colorscheme OceanicNext
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 let g:airline_theme='oceanicnext'
+
+let g:neoterm_automap_keys = '<Leader>tt'
+nnoremap <silent> <Leader>to :call neoterm#open()<cr>
+nnoremap <silent> <Leader>th :call neoterm#close()<cr>
+nnoremap <silent> <Leader>tl :call neoterm#clear()<cr>
+nnoremap <silent> <Leader>tc :call neoterm#kill()<cr>
+nnoremap <silent> <Leader>tsf :TREPLSendFile<cr>
+nnoremap <silent> <Leader>ts :TREPLSend<cr>
+vnoremap <silent> <Leader>ts :TREPLSend<cr>
+
+autocmd! BufWritePost * Neomake

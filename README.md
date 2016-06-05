@@ -6,6 +6,8 @@
 - [install neovim python package](https://github.com/neovim/python-client)
 - [install vim-plug](https://github.com/junegunn/vim-plug#neovim)
 - **install tmux:** `sudo apt-get install tmux`
+- **install jedi:** `sudo pip install jedi`
+- [install pylint](https://www.pylint.org/#install)
 
 ## configrations
 
