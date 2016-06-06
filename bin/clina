@@ -1,0 +1,4 @@
+#! /bin/bash
+# command line interface for network authentication
+curl 'http://net.tsinghua.edu.cn/do_login.php' --data 'action=login&username=xb15&password={MD5_HEX}5894a528171580d4d35e23b1d9ed8879&ac_id=1'
+echo
