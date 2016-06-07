@@ -7,8 +7,6 @@ set shiftwidth=2
 let mapleader=','
 nnoremap <silent> <Leader>n :noh<CR>
 noremap \ ,
-nnoremap <tab> :bn<CR>
-nnoremap <s-tab> :bp<CR>
 
 function! DoRemote(arg)
   UpdateRemotePlugins
@@ -64,4 +62,15 @@ nnoremap <silent> <Leader>tsf :TREPLSendFile<cr>
 nnoremap <silent> <Leader>ts :TREPLSend<cr>
 vnoremap <silent> <Leader>ts :TREPLSend<cr>
 
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-k>     <Plug>(neosnippet_expand_target)
+smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+if has('conceal')
+  set conceallevel=2 concealcursor=niv
+endif
+
+
 autocmd! BufWritePost * Neomake
+autocmd! QuitPre * let g:neomake_verbose = 0
